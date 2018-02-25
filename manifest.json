@@ -1,0 +1,17 @@
+{
+	"name": "Send Link To...",
+	"version": "0.1.0",
+	"manifest_version": 2,
+	"description": "Send a link to an arbitrary url",
+	"homepage_url": "https://github.com/steinad/chome_send_link_to",
+	"background": {
+		"scripts": [
+			"src/bg/background.js"
+		],
+		"persistent": true
+	},
+	"permissions": [
+		"contextMenus",
+		"https://*/*"
+	]
+}
